@@ -2,6 +2,9 @@
 
 矩联科技官方网站项目（默认静态站点骨架，后续可平滑升级到 Vite / Nuxt / Next 等）。
 
+## 在线访问
+https://tuaran.github.io/julian-tech-website/
+
 ## 目录结构
 - public/ 静态资源（直接拷贝到根目录）
 - src/    页面与样式资源
