@@ -32,7 +32,7 @@ npm run preview
 
 步骤：
 1. 先在 GitHub 仓库 Settings → Pages，把 Source 改成 **GitHub Actions**。
-2. 新建工作流文件：`.github/workflows/deploy-pages.yml`（我可以帮你一键生成）。
+2. 仓库已包含工作流文件：`.github/workflows/deploy-pages.yml`。
 3. 推送到 `main` 后会自动构建并发布。
 
 ## 4) Cloudflare Pages 自动部署
@@ -42,4 +42,4 @@ npm run preview
    - Framework preset：Vite
    - Build command：`npm run build`
    - Build output directory：`dist`
-3. 部署后会给你一个 `*.pages.dev` 域名；绑定自定义域名后，把 `robots.txt`/`sitemap.xml` 里的域名占位替换掉。
+3. 部署后会给你一个 `*.pages.dev` 域名；如果绑定自定义域名，请同步更新 `robots.txt` / `sitemap.xml` / `index.html` 里的站点地址（canonical/og:url）。

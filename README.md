@@ -1,4 +1,4 @@
-# 矩联科技官网
+# 广州矩联科技官网
 
 矩联科技官方网站项目（默认静态站点骨架，后续可平滑升级到 Vite / Nuxt / Next 等）。
 
@@ -25,5 +25,5 @@ python3 -m http.server 5173
 4. Branch 选择 `main`，目录选择 `/ (root)`，保存。
 5. 等待 1-3 分钟，访问 Pages 给出的 URL。
 
-### 注意：域名占位
-- [robots.txt](robots.txt) 和 [sitemap.xml](sitemap.xml) 里有 `REPLACE_WITH_YOUR_DOMAIN` 占位，绑定自定义域名或确认 Pages URL 后把它替换掉。
+### 自定义域名
+- 如果你后续绑定自定义域名，请同步更新 [robots.txt](robots.txt) / [sitemap.xml](sitemap.xml) 以及页面里的 canonical/OG URL。
